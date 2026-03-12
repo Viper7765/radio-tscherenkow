@@ -23,7 +23,7 @@ Da wir keine vorkompilierten .exe-Dateien hosten (um Sicherheitsrisiken zu verme
 ### ⚠️ Wichtige Fehlerbehebung
 Falls die `.exe` auf einem Computer nicht startet ("Anwendung konnte nicht gestartet werden" oder "DLL fehlt"), liegt das an fehlenden System-Dateien. 
 **Lösung:** Installiere die aktuellsten **Microsoft Visual C++ Redistributable** Pakete:
-👉 [Download Visual C++ x64](https://aka.ms)
+👉 [Download Visual C++ x64](https://learn.microsoft.com/de-de/cpp/windows/latest-supported-vc-redist?view=msvc-170)
 
 ---
 
@@ -45,7 +45,7 @@ Since we do not host pre-compiled .exe files (to avoid security risks and ensure
 ### ⚠️ Troubleshooting
 If the `.exe` fails to launch on a computer (showing "application could not be started" or "missing DLL"), it is likely due to missing system components.
 **Solution:** Install the latest **Microsoft Visual C++ Redistributable** packages:
-👉 [Download Visual C++ x64](https://aka.ms)
+👉 [Download Visual C++ x64](https://learn.microsoft.com/de-de/cpp/windows/latest-supported-vc-redist?view=msvc-170)
 
 ---
 
