@@ -1,0 +1,9 @@
+# Node.js
+node_modules/
+dist/
+
+# Visual Studio / Build Artefakte
+obj/
+bin/
+.vs/
+*.sln.dotsettings.user

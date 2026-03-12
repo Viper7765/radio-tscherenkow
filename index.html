@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy"
+          content="
+            default-src 'self';
+            connect-src 'self' https://api.laut.fm wss://api.laut.fm https://stream.laut.fm;
+            media-src https://stream.laut.fm https://*.laut.fm;
+            img-src 'self' https://*.laut.fm data:;
+          ">
+    <link rel="stylesheet" href="style.css">
+    <title>Radio Tscherenkow</title>
+</head>
+
+<body>
+    <div class="player-container">
+
+        <img id="cover" src="default-cover.jpg" alt="Cover">
+
+        <div class="info-section">
+            <h3>Aktuell läuft:</h3>
+            <div id="track">—</div>
+            <div id="artist">—</div>
+        </div>
+
+        <div class="info-section">
+            <h3>Zuletzt gespielt:</h3>
+            <div id="last-track">—</div>
+            <div id="last-artist">—</div>
+        </div>
+
+        <div class="info-section">
+            <h3>Nächster Track:</h3>
+            <div id="next-track">—</div>
+            <div id="next-artist">—</div>
+        </div>
+
+        <div class="controls">
+            <button id="play-btn">PLAY</button>
+            <input type="range" id="volume" min="0" max="100" value="80">
+        </div>
+
+        <div class="listeners">
+            Zuhörer: <span id="listener-count">0</span>
+        </div>
+
+    </div>
+
+    <script src="renderer.js"></script>
+</body>
+</html>

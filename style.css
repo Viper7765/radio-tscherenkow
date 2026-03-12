@@ -1,0 +1,69 @@
+body {
+    background: #000;
+    color: #b8dfff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+.player-container {
+    width: 320px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #050505;
+    border-radius: 12px;
+    box-shadow: 0 0 25px rgba(0, 140, 255, 0.4);
+}
+
+#cover {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 140, 255, 0.6);
+}
+
+.info-section {
+    margin: 20px 0;
+}
+
+    .info-section h3 {
+        margin-bottom: 5px;
+        color: #66b3ff;
+        text-shadow: 0 0 8px rgba(0, 140, 255, 0.8);
+    }
+
+    .info-section div {
+        font-size: 18px;
+        margin: 3px 0;
+        text-shadow: 0 0 6px rgba(0, 140, 255, 0.7);
+    }
+
+#play-btn {
+    padding: 12px 25px;
+    background: #0099ff;
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: 0.2s;
+    box-shadow: 0 0 15px rgba(0, 140, 255, 0.7);
+}
+
+    #play-btn:hover {
+        box-shadow: 0 0 25px rgba(0, 140, 255, 1);
+        transform: scale(1.05);
+    }
+
+#volume {
+    width: 100%;
+    margin-top: 15px;
+    accent-color: #0099ff;
+    filter: drop-shadow(0 0 6px rgba(0, 140, 255, 0.8));
+}
+
+.listeners {
+    margin-top: 20px;
+    font-size: 18px;
+    text-shadow: 0 0 6px rgba(0, 140, 255, 0.7);
+}

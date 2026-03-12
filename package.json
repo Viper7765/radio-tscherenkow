@@ -1,0 +1,40 @@
+{
+  "name": "radio-tscherenkow",
+  "version": "1.0.1",
+  "description": "Radio Tscherenkow Desktop Player",
+  "author": "Daniel",
+  "main": "main.js",
+
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder --win",
+    "dist": "electron-builder"
+  },
+
+  "linux": {
+    "target": "AppImage",
+    "category": "AudioVideo"
+  },
+
+  "dependencies": {
+  },
+
+  "devDependencies": {
+    "electron": "^30.0.0",
+    "electron-builder": "^26.8.1"
+  },
+
+  "build": {
+    "appId": "com.tscherenkow.radio",
+    "productName": "Radio Tscherenkow",
+    "directories": {
+      "output": "dist"
+    },
+    "win": {
+      "target": [
+        "portable"
+      ],
+      "icon": "icon.ico"
+    }
+  }
+}
