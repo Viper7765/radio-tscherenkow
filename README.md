@@ -1,4 +1,4 @@
-# ☢️ Radio Tscherenkow – Desktop Player
+# ☢️ Radio Tscherenkow-Effekt – Desktop Player
 
 [DE] Ein minimalistischer Desktop-Player für den Radio Tscherenkow Stream auf laut.fm, gebaut mit Electron.
 [EN] A minimalist desktop player for the Radio Tscherenkow stream on laut.fm, built with Electron.
