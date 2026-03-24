@@ -3,6 +3,7 @@ node_modules/
 dist/
 
 # Visual Studio / Build Artefakte
+.vscode/
 obj/
 bin/
 .vs/

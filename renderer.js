@@ -1,4 +1,4 @@
-const stationName = "tscherenkow";
+const stationName = "tscherenkow-effekt";
 const streamUrl = `https://stream.laut.fm/${stationName}`;
 
 let audio = new Audio();
